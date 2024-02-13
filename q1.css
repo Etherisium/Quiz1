@@ -3,32 +3,39 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(92, 92, 250);
+    background-color: rgb(42, 127, 184);
 }
 form {
     width: 300px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid hsl(67, 111, 244);
+    border-radius: 4px;
 }
 input[type="text"],
 input[type="email"],
-input[type="password"],
+input[type="password"] 
+
+,
 input[type="submit"] {
     width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px ;
+    background-color: rgb(42, 127, 184) ;
+    border-radius: 5px; 
     box-sizing: border-box;
+    display: center;
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
 }
 
-h1 {  font-size:43px;
+h1 {  font-size:53px;
     color: rgb(254, 254, 254);
     text-align: left;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     ;
+    margin:15px;
  }
 
 
@@ -41,12 +48,12 @@ h1 {  font-size:43px;
   justify-content: center ;
      }
 
-h2 { 
+h2 { font-size: 25px;
         color:rgb(0, 0, 0);
         text-align: center;
      }
 
-.textbox{margin: 10px;
+.textbox{margin: 9px;
     padding: 10px;
     Height: 400px;
     width: 400px;}
@@ -55,7 +62,7 @@ h2 {
     background-color: white;
     padding: 10px;
     border: 1px solid gainsboro;
-    Height: 450px;
+    Height: 400px;
     width: 400px;
     
 }
@@ -64,7 +71,10 @@ h2 {
     width: 250px;
      margin: 5px;
      padding: 5px;
-    text-align: left;}
+    text-align: left;
+color: #ccc;}
+
+
 .para-2 {height: 0.5px;
     width: 250px;
      margin: 10px;
@@ -72,11 +82,25 @@ h2 {
     text-align: center;}
 
 .vertical{border-right: 6px solid rgb(255, 255, 255);
-    height: 300px;
+    height: 310px;
     position: right;
     right: 50%;}
 
 
-    ::placeholder { text-align: center;
+    ::placeholder { 
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
         color: rgb(208, 208, 208);
-        opacity: 0.5;}
+        opacity: 1;
+      }
+
+
+input {
+    background-color: white;
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
